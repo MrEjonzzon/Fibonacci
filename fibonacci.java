@@ -7,9 +7,9 @@ class Main {
     public static void main(String[] args) {
 
     //set credentials and initialize values
-        String url = "jdbc:mysql://localhost:3306/arbetsprov";
-        String username = "arbetsprov";
-        String password = "mittarbetsprov2021";
+        String url = "jdbc:mysql://localhost:3306/dbNAME";
+        String username = "";
+        String password = "";
         Connection connection = null;
         PreparedStatement statement = null;
         int i = 1, n = 10, firstTerm = 0, secondTerm = 1, id = 1;
