@@ -1,0 +1,1 @@
+0 * * * * java -jar $PATH/fibonacci.jar >> $PATH//log/fibonacci.log 2>&1
